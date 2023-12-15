@@ -28,6 +28,21 @@ this is the main page this website
 is currently under develop by it's                                                           
 devolper dont expect any thing good out of this website
 copywright 2023 fatcat.ink
+  <button onclick="playVideo()" type="button">Play</button>
+<button onclick="pauseVideo()" type="button">Pause</button><br> 
+<video id="myVid" width="400" height="200">
+ <source src="video.mp4" type="video/mp4">
+  Sorry, your browser does not support HTML5 video.
+</video>
+<script> 
+var myVideo = document.getElementById("myVid");
+function playVideo() { 
+ myVideo.play(); 
+} 
+function pauseVideo() { 
+ myVideo.pause(); 
+} 
+</script> 
 </p>
 <img src="index.jpg" />
 </body>
